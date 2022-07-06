@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS</title>
+    <style>
+        p {
+            /* utilizando o nome do seletor, todos os seletores deta página recebem esse estilo */
+            background: #c1c1c1;
+        }
+
+        .destaque {
+            /* todos os seletores que tenham o atributo class, que co ntenham esse nome, recebbem o estilo */
+            background: #91ff00;
+        }
+
+        #especifico {
+            border: 1px solid black;
+            /* utilizando o # apenas o seletor que tenha o atributo id="especifico", recebe esse estilo */
+        }
+    </style>
+</head>
+<body>
+    <a href="/index.html">Voltar</a>
+    <hr>
+    <!-- estilo em linha é recomendado quando não passa de três atributos -->
+    <p style="color: red; background: black; font-weight: bold;">vermelho</p>
+    <span style="color: red; background: blue; font-weight: bold;">azul</span>
+    <h1 style="color: red; background: black; font-weight: bold;">vermelho</h1>
+    <p style="color: red; background: black; font-weight: bold;">vermelho</p>
+
+    <ul style="font-weight: bold; background: red;">
+        <li>a</li>
+        <li>b</li>
+        <li>c</li>
+    </ul>
+
+    <img src="./imagem.jpeg" style="width: 48px; height: 48px; border-radius: 50%;">
+
+    <div style="text-align:center; border: 1px solid black;">
+        <p id="especifico">a</p>
+        <p style="color: #ccc;">b</p>
+        <p class="destaque">c</p>
+    </div>
+
+    <p>testando css</p>
+
+    <span class="destaque">Por conseguinte, a consolidação das estruturas acarreta um processo de reformulação e modernização das diretrizes de desenvolvimento para o futuro.</span> 
+
+    <i class="destaque">hello</i>
+
+    <b id="especifico">lucas</b>
+</body>
+</html>
