@@ -1,0 +1,55 @@
+div{
+    color: gray!important;
+    background-color: crimson;
+    border: 1px solid black;
+
+}
+
+a{
+    color: red;
+}
+
+.negrito{
+    font-weight: bold;
+}
+
+.italico{
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#enviar{
+    background-color: darkblue;
+}
+
+#limpar{
+    background-color: white;
+}
+
+div{
+    color: blue!important;
+    background-color: crimson;
+    border: 1px solid black;
+
+}
+
+body{
+    background-color: black !important;
+    color: white;
+    font-style: italic;
+    
+}
+
+h1{
+    color: deeppink;
+    margin-left: 30%;
+}
+
+.cv-body{
+    background-color: rgb(34, 34, 34);
+    color: antiquewhite;
+}
+
+ul, ol, h2, audio, img{
+    margin-left: 30%;
+}

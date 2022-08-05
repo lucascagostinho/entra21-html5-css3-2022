@@ -1,0 +1,83 @@
+.grid{
+    display: grid;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    gap: 4px;
+
+}
+
+.header{
+    grid-area: header;
+    padding: 4px;
+    background-color: darkgray;
+}
+
+.content{
+    grid-area: content;
+    padding: 8px;
+    background-image: linear-gradient(lightblue, lightpink, lightsalmon, lightyellow);
+
+    height: 80vh;
+}
+
+.sidenav{
+    grid-area: sidenav;
+    height: 100vh;
+    background-image: linear-gradient(lightblue, lightpink, lightsalmon, lightyellow);
+}
+
+footer{
+    text-align: center;
+}
+
+.footer{
+    
+    grid-area: footer;
+}
+
+footer::after{
+    content: "© Copyright 2022 ariana-ssilva.github.io  - Todos os direitos reservados";
+}
+
+.grid-template{
+    grid-template-areas: 
+    "header header header header header header header header header header header header"
+    "sidenav sidenav content content content content content content content content content content"
+    "sidenav sidenav footer footer footer footer footer footer footer footer footer footer"
+    ;
+}
+
+.item{
+    font-size: clamp(
+        1em, 1em + 1vw, 1.5em
+    );
+}
+
+header img{
+    width: 22px;
+    padding: 0px;
+}
+
+nav ul{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+nav ul li{
+    margin: 2px;
+    border: 1px solid black;
+    background-color: darkgray;
+}
+
+nav ul li:hover{
+    background-color: lightcoral;
+}
+
+nav a{
+    text-decoration: none;
+}
+
+.selecionado{
+    background-color: lightcoral;
+}

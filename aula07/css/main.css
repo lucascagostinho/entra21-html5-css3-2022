@@ -1,0 +1,12 @@
+footer{
+    text-align: center;
+}
+
+footer::after{
+    content: "® Copyright ariana-ssilva.github.io";
+}
+
+.img-profile{
+    height: 500px;
+    border-color: yellow;
+}

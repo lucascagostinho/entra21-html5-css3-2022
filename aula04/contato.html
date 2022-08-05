@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ariana - Contato</title>
+    <link rel="stylesheet" href="css/site.css">
+    <style>
+        #limpar {
+            background-color: red;
+            border-radius: 4px;
+            border: 1px solid red;
+            padding: 2px;
+        }
+
+        #enviar {
+            background-color: lightseagreen;
+            border-radius: 4px;
+            border: 1px solid lightseagreen;
+            padding: 2px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <img src="img/communicate.png" alt="">
+        <h1>Contato</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="cv.html">Curriculo</a></li>
+            <li><a href="contato.html">Contato</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h2>Entre em contato</h2>
+        <form action="mailto:arianamoreira5021@gmail.com?subject=Contato via site pessoaç" method="post"
+            enctype="text/plain">
+            <label for="nome">Nome:</label>
+            <input type="text" name="nome" id="nome" placeholder="Insira seu nome:" required>
+            <br>
+            <label for="telefone">Telefone:</label>
+            <input type="text" name="telefone" id="telefone" placeholder="Insira o telefone:" required>
+            <br>
+            <label for="assunto">Assunto</label>
+            <textarea name="assunto" id="assunto" cols="" rows=""></textarea>
+            <br>
+            <input type="reset" value="Resetar" id="limpar">
+            <input type="submit" value="Enviar" id="enviar">
+            <hr>
+            <a href="https://mail.google.com/mail/u/0/?fs=1&to=arianamoreira5021@gmail.com.com&su=Contato+-+via+site+pessoal&body=Ol%C3%A1+Ariana!+Tudo+bem?&tf=cm">Prefere gmail?</a>
+
+        </form>
+
+    </main>
+    <footer>
+        <hr>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>CSS</title>
+    <style>
+        p {
+            /* Utilizando o nome do seletor, todos os seletores desta página recebem esse estilo */
+            background-color: #C1C1C1;
+        }
+
+        .destaque {
+            /* Utilizando PONTO, todos os seletores que tenham o atributo class 
+            que contenha esse nome recebem o estilo */
+            background-color: #0ff61b;
+        }
+
+        #especifico{
+            /* Utilizando #, apenas o seletor que tenha o atributo id="especifico" recebe esse estilo */
+            border: 1px solid black;
+        }
+    </style>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+    <a class="destaque"  href="/index.html">Voltar</a>
+    <hr>
+    <p style="color: red; background-color: black; font-weight: bolder;">Vermelho</p>
+    <span style="border: 1px solid blueviolet;"> texto normal</span>
+
+    <ul style="font-weight: bold; background-color: yellow;">
+        <li>A</li>
+        <li>B</li>
+        <li>C</li>
+    </ul>
+    <img style="height: 50px; width: 50px; border-radius: 50%;" src="/gif_img/html_css_javascript.png" alt="">
+
+    <div style="text-align:center; border: 1px solid black;">
+        <p>a</p>
+        <p>b</p>
+        <p class="destaque">c</p>
+    </div>
+    <p>testando css</p>
+    <span class="destaque">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+        been the industry's
+        standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make
+        a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting,
+        remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing
+        Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions
+        of Lorem Ipsum</span>
+
+    <br>
+    <i class="destaque"> hello</i>
+
+    <b id="especifico">Ariana</b>
+</body>
+
+</html>
